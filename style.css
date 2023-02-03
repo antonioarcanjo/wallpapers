@@ -34,26 +34,28 @@ header{
 img{
     height: 250px;
     width: 250px;
-    opacity: 50%;
+    opacity: 75%;
     display: block;
     margin-left: 70px;
     margin-top: 10px;
 }
 
 h1{
-    padding-top: 80px;
-    font-size: 24pt;
+    padding-top: 50px;
+    font-size: 20pt;
     text-align: center;
     font-family: 'Share Tech Mono', monospace;
-    color: antiquewhite;
+    color: rgb(120, 126, 255);
 }
 
 .me{
-    font-size: 16pt;
+    font-size: 14pt;
     text-align: center;
     font-family: 'Share Tech Mono', monospace;
-    color: antiquewhite;
-    padding-bottom: 120px;
+    color: rgb(120, 126, 255);
+    padding-bottom: 70px;
+    margin: auto;
+    padding-top: 15px;
 }
 
 .social-media{
@@ -61,27 +63,7 @@ h1{
     font-size: 11pt;
     text-align: center;
     font-family: 'Share Tech Mono', monospace;
-    color: antiquewhite; 
-}
-
-p::selection{
-    color: antiquewhite;
-    background-color: rgba(0, 0, 0, 5);
-}
-
-h1::selection{
-    color: antiquewhite;
-    background-color: rgba(0, 0, 0, 5);
-}
-
-img::selection{
-    color: antiquewhite;
-    background-color: rgba(0, 0, 0, 5);
-}
-
-a::selection{
-    color: antiquewhite;
-    background-color: rgba(0, 0, 0, 5);
+    color: rgb(119, 252, 152); 
 }
 
 a{
