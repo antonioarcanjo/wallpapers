@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallpaper 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <div id="container">
+            <div id="container-content">
+                <div class="container-content-card">
+                    <img src="assets/photo_2023-02-03_00-56-53-removebg-preview.png" alt="">
+                    <h1>
+                        Who am I?
+                    </h1>
+                    <p class="me">I'm only a Junior developer coursing software engineering</p>
+                    <p class="social-media">
+                        My Instagram: <a target="_blank" href="https://instagram.com/voodootoy_">@voodootoy_</a>
+                    </p>
+                    <p class="social-media">
+                        Github: <a target="_blank" href="https://github.com/antonioarcanjo">Antonio Arcanjo</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="assets/js/vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll("#container-content")),{
+            max: 15,
+            speed: 250
+        }
+    </script>
+</body>
+</html>
